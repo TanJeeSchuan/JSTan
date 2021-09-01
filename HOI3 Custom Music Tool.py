@@ -4,8 +4,6 @@ print(Input the path of the music files:)
 
 path = input()
 
-'C:\\GOG Games\Hearts of Iron III\musicmod'
-
 f = open(path + "\songs.txt","w+")
 
 files = listdir(path)
